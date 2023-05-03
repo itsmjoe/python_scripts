@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+from process import CONFIGURATION
+
+###########################################################
+#######  COFIGURATION
+###########################################################
+
+PATH_SOURCE = CONFIGURATION["CISCO_PRIME"]["PATH_SOURCE"]
+PATH_FINAL = CONFIGURATION["CISCO_PRIME"]["PATH_FINAL"]
+PATH_FINAL_CISCO_PRIME = CONFIGURATION["CISCO_PRIME"]["PATH_FINAL_CISCO_PRIME"]
+PATH_TEMP = CONFIGURATION["CISCO_PRIME"]["PATH_TEMP"]
+COLUMNS_DATA = CONFIGURATION["CISCO_PRIME"]["COLUMNS_DATA"].split(',')
+COLUMNS_DATA_CISCO_PRIME = CONFIGURATION["CISCO_PRIME"]["COLUMNS_DATA_CISCO_PRIME"].split(',')
+
+
+def PATH_TEMP():
+    return None
